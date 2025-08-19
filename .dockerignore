@@ -1,0 +1,52 @@
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Temporal folders
+.cache/
+.git/
+.github/
+.idea/
+.ruff_cache/
+.venv/
+.vscode/
+.local/
+
+# Temp files
+**/.DS_Store
+*.log
+*.swp
+
+# Environmental files
+.env
+*.env
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# uv
+uv.lock
+
+# Documentation
+README.md
+
+# Scripts
+Makefile
+
+# Settings
+.python-version
+.gitignore
+*.yaml
+*.yml
+
+# Codes
+infra/
+test/
+client/
+
+# Volumnes
+data/
+result/

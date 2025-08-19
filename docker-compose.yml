@@ -1,0 +1,10 @@
+services:
+  libreoffice-test:
+    container_name: libreoffice-test
+    build:
+        context: .
+        dockerfile: Dockerfile
+    command: ./entrypoint.sh
+    volumes:
+      - ./data:/app/data:ro
+      - ./result:/app/result
